@@ -1,0 +1,10 @@
+.modalFooter .modalFooterLeft span{
+    color:skyblue;
+    margin-left:20px;
+}
+.modalFooter .modalFooterLeft span:hover{
+    cursor: pointer;
+}
+.modalFooter .modalFooterRight button{
+    background-color: black;
+}

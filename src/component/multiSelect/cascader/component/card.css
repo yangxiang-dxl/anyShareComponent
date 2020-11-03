@@ -1,0 +1,52 @@
+.card>{
+    position: relative;
+}
+.card .inputTitle{
+    position: absolute;
+    top:12px;
+    left: 2px;
+    border:1px solid rgb(231, 226, 226);
+    outline: none;
+    height: 30px;
+}
+.card .itemRight:hover{
+    cursor: pointer;
+}
+.card .itemRight {
+    width:8%;
+    height: 100%;
+}
+.item{
+    padding:1px 0px;
+}
+.item .itemLeft{
+    width:8%;
+    height: 100%;
+}
+.item .itemLeft .icon{
+    display: none;
+}
+.item .itemLeft .icon:hover{
+    cursor: move;
+}
+.itemRight  .delete{
+    display:none;
+}
+.item:hover{
+    padding:1px 0px;
+}
+.item:hover > .itemLeft .icon{
+    display: block;
+}
+.item:hover > .itemLeft .noIcon{
+    display: none;
+}
+.item:hover > .itemRight  .delete{
+    display: block;
+}
+.item:hover > .itemRight .next{
+    display:none;
+}
+.item .showMessage{
+    color:rgb(197, 192, 192);
+}
